@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 COLUMN LAYOUT</title>
+  <style>
+    *{margin: 0; padding: 0; border: 0; box-sizing: border border-box;}
+    
+    header{
+      background-color: #abc; min-height: 150px;
+      text-align: center;
+      color: black;
+      font-size: 40px;
+      padding-top: 30px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    main{
+      background-color: #678;min-height: 500px;
+      display: flex; flex-flow: row wrap;
+    }
+
+    aside:nth-child(1) {
+      flex: 0 0 200px; background-color: rgb(255, 251, 252);
+      padding-top: 20px;
+      column-gap: 20px;
+      text-align: center;
+    }
+
+    aside:nth-child(3) {
+      flex: 1 0 250px; background-color: #ffc;
+
+    }
+
+    article{
+      flex: 1 0 auto; background-color: skyblue;
+      font-size: x-large;
+      text-align: center;
+
+    }
+
+    footer{
+      background-color: rgb(6, 48, 90); min-height: 200px;
+      color: #ffc;
+      text-align: center;
+      font-size: xx-large;
+    }
+
+  </style>
+</head>
+<body id="homepage">
+    <div id="container">
+      <header>
+        <h2>COUNTRIES</h2>
+      </header>
+
+      <main>
+         <aside>
+          <li> <strong>LIST OF COUNTRIES</strong><br><br>
+            <ul>Nigeria</ul><br><br>
+            <ul>Brazil</ul><br><br>
+            <ul>India</ul><br><br>
+            <ul>Dubai</ul><br><br>
+            <ul>New Zealand</ul>
+          </li>
+         </aside>
+         <article>Interesting Facts about Nigeria<br> It is the most populous country in Africa.<br> Over 500 indigenous languages are spoken.
+         <br> Social media is very popular.<br> Home to the richest man in Africa.<br> Oil is one of the biggest exports of the country</article>
+  
+         <aside>
+          <img src="a (10).jpg" alt="New Zealand" width="200px" height="100px">
+          <img src="a (13).jpg" alt="Nigeria" width="200px" height="100px">
+          <img src="a (18).jpg" alt="Dubai width="250px" height="100px">
+          <img src="a (15).jpg" alt=" india" width="200px" height="100px">
+          <img src="a (16).jpg" alt="New Zealand" width="200px" height="100px">
+          <img src="a (9).jpg" alt="Nigeria" width="200px" height="100px">
+          <img src="a (8).jpg" alt="Dubai width="200px" height="100px">
+          <img src="a (7).jpg" alt=" india" width="200px" height="100px">
+          <img src="a (6).jpg" alt="New Zealand" width="200px" height="100px">
+          <img src="a (3).jpg" alt="Nigeria" width="200px" height="100px">
+          <img src="a (1).jpg" alt="Dubai width="200px" height="100px">
+          <img src="a (5).jpg" alt=" india" width="200px" height="100px">
+
+         </aside>
+      </main>
+    
+      <footer>HOLIDAY</footer>  
+    </div>
+</body>
+</html>

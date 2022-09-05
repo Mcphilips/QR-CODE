@@ -1,0 +1,170 @@
+/* -------------------elements -------------------------*/
+body {
+    font-family: 'Poppins';
+    font-size: 16px;
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    max-width: 1440px;
+  }
+  
+  h1, h2, h3 {
+    color: hsl(234, 12%, 34%);
+  }
+  
+  h1, h2 {
+    font-size: 1.825rem;
+  }
+  
+  h3 {
+    font-size: 1rem !important;
+    margin-top: 3px;
+  }
+  
+  h2 {
+    margin-top: -1.5px;
+    margin-bottom: -7px;
+  }
+  
+  p {
+    font-size: 0.8rem;
+    width: 32%;
+    line-height: 1.6;
+  }
+  
+  img {
+    position: absolute;
+    right: 25.5px;
+    bottom: 25.5px;
+    width: 18.3%
+  }
+  
+  /* --------------------------Title Section--------------------------  */
+  #heading .container-fluid {
+    margin-top: 24px;
+    margin-bottom: 50px;
+  }
+  
+  /* -------------------------Card Section----------------------------------- */
+  .cards-container {
+    margin-bottom: 60px;
+  }
+  
+  .card-column.row {
+    flex-grow: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .second-column {
+    margin-left: 24px !important;
+    margin-right: 24px !important;
+  }
+  
+  /* ------------------------Cards--------------------------------- */
+  .card {
+    width: 280px;
+    height: 200px;
+    position: relative;
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.65rem;
+    width: 100%;
+    margin-top: -3px;
+    line-height: 1.8;
+  }
+  
+  .karma {
+    margin-top: 24px;
+    background: linear-gradient(hsl(34, 97%, 64%) 3px, white 3px);
+  }
+  
+  .Supervisor {
+    background: linear-gradient(hsl(180, 62%, 55%) 3px, white 3px);
+  }
+  
+  .Calculator {
+    background: linear-gradient(hsl(212, 86%, 64%) 3px, white 3px);
+  }
+  
+  .Team-builder {
+    background: linear-gradient(hsl(0, 78%, 62%) 3px, white 3px);
+  }
+  
+  /* --------------------------footer section ------------------------------*/
+  .attribution {
+    font-size: 0.69rem;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  /*------------------------------- responsiveness ------------------------*/
+  @media (max-width: 400px) {
+  
+    /* ---------------------------title section ---------------------------*/
+    h2, h1 {
+      font-size: 1.2rem;
+    }
+  
+    h2 {
+      margin-top: -1px;
+      margin-bottom: -9px;
+    }
+    img {
+      right: 22.5px;
+      bottom: 22.5px;
+    }
+  
+    #heading p {
+      font-size: 0.8rem;
+      width: 75%;
+    }
+  
+    #heading .container-fluid {
+      margin-top: 70.5px;
+      margin-bottom: 60px;
+    }
+  
+    /* ------------------------Cards--------------------------------- */
+    .second-column {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .card {
+      width: 249px;
+      height: 177.5px;
+    }
+  
+    .Team-builder {
+      height: 178px;
+    }
+  
+    .karma {
+      margin-top: 18.5px;
+    }
+  
+    .card{
+      padding-top: 0.1%;
+      padding-left: 1%;
+    }
+  
+    .card-text {
+      margin-top: -7px;
+    }
+  
+    /* footer section */
+    .attribution {
+      font-size: 0.6rem;
+    }
+}
